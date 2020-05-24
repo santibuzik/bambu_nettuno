@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc?wsdl" uri="wsdl/wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc.wsdl"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc?xsd=xsd0" uri="wsdl/wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc.xsd_xsd0.xsd"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc?xsd=xsd1" uri="wsdl/wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc.xsd_xsd1.xsd"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc?xsd=xsd2" uri="wsdl/wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc.xsd_xsd2.xsd"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc?xsd=xsd3" uri="wsdl/wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc.xsd_xsd3.xsd"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc?wsdl" uri="wsdl/wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc.wsdl"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc?xsd=xsd0" uri="wsdl/wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc.xsd_xsd0.xsd"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc?xsd=xsd1" uri="wsdl/wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc.xsd_xsd1.xsd"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc?xsd=xsd2" uri="wsdl/wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc.xsd_xsd2.xsd"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc?xsd=xsd3" uri="wsdl/wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc.xsd_xsd3.xsd"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/LecturaTarjeta_400.svc?wsdl" uri="wsdl/wwwi.transact.com.uy/Concentrador/LecturaTarjeta_400.svc.wsdl"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/LecturaTarjeta_400.svc?xsd=xsd0" uri="wsdl/wwwi.transact.com.uy/Concentrador/LecturaTarjeta_400.svc.xsd_xsd0.xsd"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/LecturaTarjeta_400.svc?xsd=xsd1" uri="wsdl/wwwi.transact.com.uy/Concentrador/LecturaTarjeta_400.svc.xsd_xsd1.xsd"/>
+    <system systemId="https://wwwi.transact.com.uy/Concentrador/LecturaTarjeta_400.svc?xsd=xsd2" uri="wsdl/wwwi.transact.com.uy/Concentrador/LecturaTarjeta_400.svc.xsd_xsd2.xsd"/>
+</catalog>

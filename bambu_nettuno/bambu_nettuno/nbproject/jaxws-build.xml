@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-LecturaTarjeta_400" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/LecturaTarjeta_400"/>
+        <property name="wsdl-LecturaTarjeta_400" location="xml-resources/web-service-references/LecturaTarjeta_400/wsdl/wwwi.transact.com.uy/Concentrador/LecturaTarjeta_400.svc.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/LecturaTarjeta_400" destdir="${build.generated.dir}/jax-wsCache/LecturaTarjeta_400" wsdl="${wsdl-LecturaTarjeta_400}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="https://wwwi.transact.com.uy/Concentrador/LecturaTarjeta_400.svc?wsdl" xnocompile="true" xendorsed="true" package="transact">
+            <depends file="${wsdl-LecturaTarjeta_400}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/LecturaTarjeta_400"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/LecturaTarjeta_400">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-LecturaTarjeta_400" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/LecturaTarjeta_400"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/transact"/>
+    </target>
+    <target name="wsimport-client-TarjetasTransaccion_400" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/TarjetasTransaccion_400"/>
+        <property name="wsdl-TarjetasTransaccion_400" location="xml-resources/web-service-references/TarjetasTransaccion_400/wsdl/wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/TarjetasTransaccion_400" destdir="${build.generated.dir}/jax-wsCache/TarjetasTransaccion_400" wsdl="${wsdl-TarjetasTransaccion_400}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="https://wwwi.transact.com.uy/Concentrador/TarjetasTransaccion_400.svc?wsdl" xnocompile="true" xendorsed="true" package="pos">
+            <depends file="${wsdl-TarjetasTransaccion_400}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/TarjetasTransaccion_400"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/TarjetasTransaccion_400">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-TarjetasTransaccion_400" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/TarjetasTransaccion_400"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/pos"/>
+    </target>
+    <target name="wsimport-client-TarjetasCierre_400" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/TarjetasCierre_400"/>
+        <property name="wsdl-TarjetasCierre_400" location="xml-resources/web-service-references/TarjetasCierre_400/wsdl/wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/TarjetasCierre_400" destdir="${build.generated.dir}/jax-wsCache/TarjetasCierre_400" wsdl="${wsdl-TarjetasCierre_400}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="https://wwwi.transact.com.uy/Concentrador/TarjetasCierre_400.svc?wsdl" xnocompile="true" xendorsed="true" package="facturacion">
+            <depends file="${wsdl-TarjetasCierre_400}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/TarjetasCierre_400"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/TarjetasCierre_400">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-TarjetasCierre_400" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/TarjetasCierre_400"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/facturacion"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-LecturaTarjeta_400, wsimport-client-TarjetasTransaccion_400, wsimport-client-TarjetasCierre_400"/>
+</project>
